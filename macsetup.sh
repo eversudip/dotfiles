@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Install Brew Packages
-brew install git tree python yarn php composer htop
+brew install git tree python yarn php composer htop mysql@5.7
 
 #install valet for local development
 composer global require laravel/valet
