@@ -6,6 +6,7 @@ brew services start mysql@5.7
 echo 'export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
 brew services stop mysql@5.7
 brew services restart mysql@5.7
+brew install kabel/php-ext/php@7.2-imap
 
 curl https://sdk.cloud.google.com | bash
 exec -l $SHELL
