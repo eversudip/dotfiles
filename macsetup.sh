@@ -4,6 +4,13 @@
 brew install git tree python yarn php composer htop mysql@5.7
 brew services start mysql@5.7
 echo 'export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
+brew services stop mysql@5.7
+brew services restart mysql@5.7
+
+curl https://sdk.cloud.google.com | bash
+exec -l $SHELL
+gcloud init
+sudo chown -R $USER ~/.config
 
 #install valet for local development
 composer global require laravel/valet
