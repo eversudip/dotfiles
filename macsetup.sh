@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Install Brew Packages
-brew install git tree python yarn
+brew install git tree python yarn php composer
 
 #install node
 echo "installing node (via n-install)"
