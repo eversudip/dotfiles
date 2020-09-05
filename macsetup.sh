@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 
 # Install Brew Packages
-brew install git tree python yarn php composer
+brew install git tree python yarn php composer htop
+
+#install valet for local development
+composer global require laravel/valet
+export PATH=$PATH:~/.composer/vendor/bin
+valet install
 
 #install node
 echo "installing node (via n-install)"
