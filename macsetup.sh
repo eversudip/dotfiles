@@ -33,3 +33,9 @@ brew cask install slack
 brew cask install kap
 brew cask install visual-studio-code
 
+
+#mac level
+defaults write com.apple.screencapture location /Users/sudipsubedi/Desktop/screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
+
+
