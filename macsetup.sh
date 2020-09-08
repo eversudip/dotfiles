@@ -4,6 +4,7 @@
 brew install git tree python yarn php composer htop mysql@5.7 redis
 brew services start mysql@5.7
 echo 'export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="~/.composer/vendor/bin:$PATH"' >> ~/.zshrc
 brew services stop mysql@5.7
 brew services restart mysql@5.7
 brew install kabel/php-ext/php@7.2-imap
